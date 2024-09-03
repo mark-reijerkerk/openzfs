@@ -220,11 +220,11 @@ jobs:
     - uses: actions/checkout@v3
 
 
-    - uses: actions/download-artifact@v3
+    - uses: actions/download-artifact@v4.1.7
       with:
         name: dev_build_inno
 
-#    - uses: actions/download-artifact@v3
+#    - uses: actions/download-artifact@v4.1.7
 #      with:
 #        name: build result
 
@@ -475,11 +475,11 @@ jobs:
     - uses: actions/checkout@v3
 
 
-    - uses: actions/download-artifact@v3
+    - uses: actions/download-artifact@v4.1.7
       with:
         name: dev_build_inno
 
-#    - uses: actions/download-artifact@v3
+#    - uses: actions/download-artifact@v4.1.7
 #      with:
 #        name: build result
 
@@ -802,11 +802,11 @@ jobs:
 #    - uses: actions/checkout@v3
 #
 #
-#    - uses: actions/download-artifact@v3
+#    - uses: actions/download-artifact@v4.1.7
 #      with:
 #        name: dev_build_inno
 #
-##    - uses: actions/download-artifact@v3
+##    - uses: actions/download-artifact@v4.1.7
 ##      with:
 ##        name: build result
 #
@@ -1373,11 +1373,11 @@ jobs:
     - uses: actions/checkout@v3
 
 
-    - uses: actions/download-artifact@v3
+    - uses: actions/download-artifact@v4.1.7
       with:
         name: dev_build_inno
 
-#    - uses: actions/download-artifact@v3
+#    - uses: actions/download-artifact@v4.1.7
 #      with:
 #        name: build result
 
@@ -1585,11 +1585,11 @@ jobs:
     - uses: actions/checkout@v3
 
 
-    - uses: actions/download-artifact@v3
+    - uses: actions/download-artifact@v4.1.7
       with:
         name: dev_build_inno
 
-#    - uses: actions/download-artifact@v3
+#    - uses: actions/download-artifact@v4.1.7
 #      with:
 #        name: build result
 
